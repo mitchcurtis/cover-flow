@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CoverFlowDelegate.qml</file>
+        <file>CoverFlowPath.qml</file>
+    </qresource>
+</RCC>
