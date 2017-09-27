@@ -9,7 +9,7 @@ Rectangle {
     transform: [
         Rotation {
             angle: rectDelegate.PathView.rotateY
-            origin.x: rectDelegate.PathView.angle > 0 ? 0 : 1
+            origin.x: rectDelegate.width / 2
             origin.y: rectDelegate.height * 0.3
             axis.x: 0
             axis.y: 1
