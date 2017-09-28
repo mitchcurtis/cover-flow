@@ -62,11 +62,12 @@ Item {
         gradient: Gradient {
             GradientStop {
                 position: 0.0
-                color: "transparent"
+                color: "#55ffffff"
             }
             GradientStop {
+                // This determines the point at which the reflection fades out.
                 position: 1.0
-                color: "white"
+                color: "#ffffff"
             }
         }
     }
