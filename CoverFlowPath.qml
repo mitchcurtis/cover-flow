@@ -4,7 +4,8 @@ Path {
     // Point 1
     property PathView pathView
 
-    startX: pathView.centerX - 1.6 * pathView.picSize
+    // This determines where the left edge of the path starts
+    startX: 0
     startY: pathView.vertOff
 
     PathAttribute {
@@ -89,7 +90,8 @@ Path {
 
     // Line to point 5
     PathLine {
-        x: pathView.centerX + pathView.picSize * 1.6
+        // This determines where the right edge of the path starts
+        x: pathView.width
         y: pathView.vertOff
     }
     PathAttribute {
