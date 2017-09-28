@@ -48,9 +48,9 @@ Item {
             Rotation {
                 origin.x: reflection.width / 2
                 origin.y: reflection.height / 2
-                axis.x: 0
+                axis.x: 1
                 axis.y: 0
-                axis.z: 1
+                axis.z: 0
                 angle: 180
             }
         ]
